@@ -1,0 +1,19 @@
+.transform:hover{
+    transform: scale(1.02);
+}
+@media only screen and (max-width: 800px) {
+    .media{
+       display: none;
+    }
+    .bigimg{
+        width: 90vw;
+    }
+    .photos{
+        display: grid;
+        justify-content: center;
+    }
+    .map{
+        height: 150px;
+        width: 250px;
+    }
+}
